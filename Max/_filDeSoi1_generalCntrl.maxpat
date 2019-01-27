@@ -249,7 +249,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 886.0, -31.0, 109.0, 22.0 ],
-					"restore" : [ 140 ],
+					"restore" : [ 127 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
@@ -900,7 +900,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 34.0, 393.0, 47.0, 22.0 ],
+					"patching_rect" : [ 37.0, 467.0, 47.0, 22.0 ],
 					"style" : "",
 					"text" : "s toMT"
 				}

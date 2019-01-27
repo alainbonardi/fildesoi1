@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 3,
-			"revision" : 1,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -39,13 +39,13 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-5",
-					"linecount" : 3,
+					"linecount" : 4,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 62.0, 15.0, 68.0, 47.0 ],
+					"patching_rect" : [ 59.0, 6.0, 74.0, 60.0 ],
 					"style" : "",
-					"text" : "entree\non/off\n(ESPACE)"
+					"text" : "guitar\ninput\non/off\n(M key)"
 				}
 
 			}
@@ -77,6 +77,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-3",
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -90,6 +91,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-2",
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -103,6 +105,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-1",
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -169,7 +172,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 161.0, 159.0, 86.0, 20.0 ],
+					"patching_rect" : [ 189.0, 158.0, 86.0, 20.0 ],
 					"style" : "",
 					"text" : "niveau entree"
 				}
@@ -264,6 +267,7 @@
 					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
+					"order" : 0,
 					"source" : [ "obj-9", 0 ]
 				}
 
@@ -273,6 +277,7 @@
 					"destination" : [ "obj-11", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
+					"order" : 1,
 					"source" : [ "obj-9", 0 ]
 				}
 

@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 3,
-			"revision" : 1,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 1125.0, 287.0, 1585.0, 827.0 ],
+		"rect" : [ 61.0, 287.0, 1585.0, 827.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -414,7 +414,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -450,6 +450,7 @@
 								"box" : 								{
 									"comment" : "",
 									"id" : "obj-27",
+									"index" : 2,
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
@@ -462,6 +463,7 @@
 								"box" : 								{
 									"comment" : "",
 									"id" : "obj-26",
+									"index" : 1,
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
@@ -521,7 +523,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 3,
-											"revision" : 1,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -557,6 +559,7 @@
 												"box" : 												{
 													"comment" : "",
 													"id" : "obj-7",
+													"index" : 2,
 													"maxclass" : "outlet",
 													"numinlets" : 1,
 													"numoutlets" : 0,
@@ -569,6 +572,7 @@
 												"box" : 												{
 													"comment" : "",
 													"id" : "obj-6",
+													"index" : 1,
 													"maxclass" : "outlet",
 													"numinlets" : 1,
 													"numoutlets" : 0,
@@ -594,6 +598,7 @@
 												"box" : 												{
 													"comment" : "",
 													"id" : "obj-5",
+													"index" : 2,
 													"maxclass" : "inlet",
 													"numinlets" : 0,
 													"numoutlets" : 1,
@@ -619,6 +624,7 @@
 												"box" : 												{
 													"comment" : "",
 													"id" : "obj-1",
+													"index" : 1,
 													"maxclass" : "inlet",
 													"numinlets" : 0,
 													"numoutlets" : 1,
@@ -687,6 +693,7 @@
 													"destination" : [ "obj-14", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
+													"order" : 1,
 													"source" : [ "obj-1", 0 ]
 												}
 
@@ -696,6 +703,7 @@
 													"destination" : [ "obj-15", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
+													"order" : 0,
 													"source" : [ "obj-1", 0 ]
 												}
 
@@ -783,7 +791,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 3,
-											"revision" : 1,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -819,6 +827,7 @@
 												"box" : 												{
 													"comment" : "",
 													"id" : "obj-7",
+													"index" : 2,
 													"maxclass" : "outlet",
 													"numinlets" : 1,
 													"numoutlets" : 0,
@@ -831,6 +840,7 @@
 												"box" : 												{
 													"comment" : "",
 													"id" : "obj-6",
+													"index" : 1,
 													"maxclass" : "outlet",
 													"numinlets" : 1,
 													"numoutlets" : 0,
@@ -856,6 +866,7 @@
 												"box" : 												{
 													"comment" : "",
 													"id" : "obj-5",
+													"index" : 2,
 													"maxclass" : "inlet",
 													"numinlets" : 0,
 													"numoutlets" : 1,
@@ -881,6 +892,7 @@
 												"box" : 												{
 													"comment" : "",
 													"id" : "obj-1",
+													"index" : 1,
 													"maxclass" : "inlet",
 													"numinlets" : 0,
 													"numoutlets" : 1,
@@ -949,6 +961,7 @@
 													"destination" : [ "obj-14", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
+													"order" : 1,
 													"source" : [ "obj-1", 0 ]
 												}
 
@@ -958,6 +971,7 @@
 													"destination" : [ "obj-15", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
+													"order" : 0,
 													"source" : [ "obj-1", 0 ]
 												}
 
@@ -1045,7 +1059,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 3,
-											"revision" : 1,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1081,6 +1095,7 @@
 												"box" : 												{
 													"comment" : "",
 													"id" : "obj-7",
+													"index" : 2,
 													"maxclass" : "outlet",
 													"numinlets" : 1,
 													"numoutlets" : 0,
@@ -1093,6 +1108,7 @@
 												"box" : 												{
 													"comment" : "",
 													"id" : "obj-6",
+													"index" : 1,
 													"maxclass" : "outlet",
 													"numinlets" : 1,
 													"numoutlets" : 0,
@@ -1118,6 +1134,7 @@
 												"box" : 												{
 													"comment" : "",
 													"id" : "obj-5",
+													"index" : 2,
 													"maxclass" : "inlet",
 													"numinlets" : 0,
 													"numoutlets" : 1,
@@ -1143,6 +1160,7 @@
 												"box" : 												{
 													"comment" : "",
 													"id" : "obj-1",
+													"index" : 1,
 													"maxclass" : "inlet",
 													"numinlets" : 0,
 													"numoutlets" : 1,
@@ -1211,6 +1229,7 @@
 													"destination" : [ "obj-14", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
+													"order" : 1,
 													"source" : [ "obj-1", 0 ]
 												}
 
@@ -1220,6 +1239,7 @@
 													"destination" : [ "obj-15", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
+													"order" : 0,
 													"source" : [ "obj-1", 0 ]
 												}
 
@@ -1307,7 +1327,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 3,
-											"revision" : 1,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1343,6 +1363,7 @@
 												"box" : 												{
 													"comment" : "",
 													"id" : "obj-7",
+													"index" : 2,
 													"maxclass" : "outlet",
 													"numinlets" : 1,
 													"numoutlets" : 0,
@@ -1355,6 +1376,7 @@
 												"box" : 												{
 													"comment" : "",
 													"id" : "obj-6",
+													"index" : 1,
 													"maxclass" : "outlet",
 													"numinlets" : 1,
 													"numoutlets" : 0,
@@ -1380,6 +1402,7 @@
 												"box" : 												{
 													"comment" : "",
 													"id" : "obj-5",
+													"index" : 2,
 													"maxclass" : "inlet",
 													"numinlets" : 0,
 													"numoutlets" : 1,
@@ -1405,6 +1428,7 @@
 												"box" : 												{
 													"comment" : "",
 													"id" : "obj-1",
+													"index" : 1,
 													"maxclass" : "inlet",
 													"numinlets" : 0,
 													"numoutlets" : 1,
@@ -1473,6 +1497,7 @@
 													"destination" : [ "obj-14", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
+													"order" : 1,
 													"source" : [ "obj-1", 0 ]
 												}
 
@@ -1482,6 +1507,7 @@
 													"destination" : [ "obj-15", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
+													"order" : 0,
 													"source" : [ "obj-1", 0 ]
 												}
 
@@ -1569,7 +1595,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 3,
-											"revision" : 1,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1605,6 +1631,7 @@
 												"box" : 												{
 													"comment" : "",
 													"id" : "obj-7",
+													"index" : 2,
 													"maxclass" : "outlet",
 													"numinlets" : 1,
 													"numoutlets" : 0,
@@ -1617,6 +1644,7 @@
 												"box" : 												{
 													"comment" : "",
 													"id" : "obj-6",
+													"index" : 1,
 													"maxclass" : "outlet",
 													"numinlets" : 1,
 													"numoutlets" : 0,
@@ -1642,6 +1670,7 @@
 												"box" : 												{
 													"comment" : "",
 													"id" : "obj-5",
+													"index" : 2,
 													"maxclass" : "inlet",
 													"numinlets" : 0,
 													"numoutlets" : 1,
@@ -1667,6 +1696,7 @@
 												"box" : 												{
 													"comment" : "",
 													"id" : "obj-1",
+													"index" : 1,
 													"maxclass" : "inlet",
 													"numinlets" : 0,
 													"numoutlets" : 1,
@@ -1735,6 +1765,7 @@
 													"destination" : [ "obj-14", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
+													"order" : 1,
 													"source" : [ "obj-1", 0 ]
 												}
 
@@ -1744,6 +1775,7 @@
 													"destination" : [ "obj-15", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
+													"order" : 0,
 													"source" : [ "obj-1", 0 ]
 												}
 
@@ -1831,7 +1863,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 3,
-											"revision" : 1,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1867,6 +1899,7 @@
 												"box" : 												{
 													"comment" : "",
 													"id" : "obj-7",
+													"index" : 2,
 													"maxclass" : "outlet",
 													"numinlets" : 1,
 													"numoutlets" : 0,
@@ -1879,6 +1912,7 @@
 												"box" : 												{
 													"comment" : "",
 													"id" : "obj-6",
+													"index" : 1,
 													"maxclass" : "outlet",
 													"numinlets" : 1,
 													"numoutlets" : 0,
@@ -1904,6 +1938,7 @@
 												"box" : 												{
 													"comment" : "",
 													"id" : "obj-5",
+													"index" : 2,
 													"maxclass" : "inlet",
 													"numinlets" : 0,
 													"numoutlets" : 1,
@@ -1929,6 +1964,7 @@
 												"box" : 												{
 													"comment" : "",
 													"id" : "obj-1",
+													"index" : 1,
 													"maxclass" : "inlet",
 													"numinlets" : 0,
 													"numoutlets" : 1,
@@ -1997,6 +2033,7 @@
 													"destination" : [ "obj-14", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
+													"order" : 1,
 													"source" : [ "obj-1", 0 ]
 												}
 
@@ -2006,6 +2043,7 @@
 													"destination" : [ "obj-15", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
+													"order" : 0,
 													"source" : [ "obj-1", 0 ]
 												}
 
@@ -2085,6 +2123,7 @@
 								"box" : 								{
 									"comment" : "",
 									"id" : "obj-7",
+									"index" : 6,
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
@@ -2098,6 +2137,7 @@
 								"box" : 								{
 									"comment" : "",
 									"id" : "obj-6",
+									"index" : 5,
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
@@ -2111,6 +2151,7 @@
 								"box" : 								{
 									"comment" : "",
 									"id" : "obj-5",
+									"index" : 4,
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
@@ -2124,6 +2165,7 @@
 								"box" : 								{
 									"comment" : "",
 									"id" : "obj-4",
+									"index" : 3,
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
@@ -2137,6 +2179,7 @@
 								"box" : 								{
 									"comment" : "",
 									"id" : "obj-3",
+									"index" : 2,
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
@@ -2150,6 +2193,7 @@
 								"box" : 								{
 									"comment" : "",
 									"id" : "obj-2",
+									"index" : 1,
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
@@ -2813,7 +2857,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2849,6 +2893,7 @@
 								"box" : 								{
 									"comment" : "",
 									"id" : "obj-1",
+									"index" : 2,
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
@@ -2861,6 +2906,7 @@
 								"box" : 								{
 									"comment" : "",
 									"id" : "obj-2",
+									"index" : 1,
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
@@ -2899,7 +2945,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 3,
-											"revision" : 1,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2957,7 +3003,7 @@
 														"appversion" : 														{
 															"major" : 7,
 															"minor" : 3,
-															"revision" : 1,
+															"revision" : 2,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -2993,6 +3039,7 @@
 																"box" : 																{
 																	"comment" : "",
 																	"id" : "obj-2",
+																	"index" : 1,
 																	"maxclass" : "outlet",
 																	"numinlets" : 1,
 																	"numoutlets" : 0,
@@ -3341,6 +3388,7 @@
 												"box" : 												{
 													"comment" : "",
 													"id" : "obj-8",
+													"index" : 1,
 													"maxclass" : "outlet",
 													"numinlets" : 1,
 													"numoutlets" : 0,
@@ -3397,6 +3445,7 @@
 												"box" : 												{
 													"comment" : "",
 													"id" : "obj-4",
+													"index" : 1,
 													"maxclass" : "inlet",
 													"numinlets" : 0,
 													"numoutlets" : 1,
@@ -3979,6 +4028,7 @@
 													"destination" : [ "obj-100", 1 ],
 													"disabled" : 0,
 													"hidden" : 0,
+													"order" : 1,
 													"source" : [ "obj-20", 0 ]
 												}
 
@@ -3988,6 +4038,7 @@
 													"destination" : [ "obj-21", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
+													"order" : 0,
 													"source" : [ "obj-20", 0 ]
 												}
 
@@ -3998,6 +4049,7 @@
 													"disabled" : 0,
 													"hidden" : 0,
 													"midpoints" : [ 194.5, 413.0, 241.5, 413.0 ],
+													"order" : 0,
 													"source" : [ "obj-21", 0 ]
 												}
 
@@ -4007,6 +4059,7 @@
 													"destination" : [ "obj-92", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
+													"order" : 1,
 													"source" : [ "obj-21", 0 ]
 												}
 
@@ -4931,6 +4984,7 @@
 					"destination" : [ "obj-16", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 1,
 					"source" : [ "obj-12", 0 ]
 				}
 
@@ -4940,6 +4994,7 @@
 					"destination" : [ "obj-17", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 0,
 					"source" : [ "obj-12", 0 ]
 				}
 
@@ -4949,6 +5004,7 @@
 					"destination" : [ "obj-18", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 1,
 					"source" : [ "obj-12", 1 ]
 				}
 
@@ -4958,6 +5014,7 @@
 					"destination" : [ "obj-20", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 0,
 					"source" : [ "obj-12", 1 ]
 				}
 
@@ -4967,6 +5024,7 @@
 					"destination" : [ "obj-30", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 1,
 					"source" : [ "obj-13", 0 ]
 				}
 
@@ -4976,6 +5034,7 @@
 					"destination" : [ "obj-32", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 0,
 					"source" : [ "obj-13", 0 ]
 				}
 
@@ -5012,6 +5071,7 @@
 					"destination" : [ "obj-25", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 0,
 					"source" : [ "obj-19", 0 ]
 				}
 
@@ -5021,6 +5081,7 @@
 					"destination" : [ "obj-6", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 1,
 					"source" : [ "obj-19", 0 ]
 				}
 
@@ -5147,6 +5208,7 @@
 					"destination" : [ "obj-14", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 1,
 					"source" : [ "obj-30", 0 ]
 				}
 
@@ -5157,6 +5219,7 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"midpoints" : [ 576.5, 621.75, 712.0, 621.75 ],
+					"order" : 0,
 					"source" : [ "obj-30", 0 ]
 				}
 
@@ -5175,6 +5238,7 @@
 					"destination" : [ "obj-14", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 1,
 					"source" : [ "obj-32", 0 ]
 				}
 
@@ -5185,6 +5249,7 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"midpoints" : [ 628.5, 621.75, 764.0, 621.75 ],
+					"order" : 0,
 					"source" : [ "obj-32", 0 ]
 				}
 
@@ -5312,6 +5377,7 @@
 					"destination" : [ "obj-1", 1 ],
 					"disabled" : 0,
 					"hidden" : 1,
+					"order" : 1,
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -5321,6 +5387,7 @@
 					"destination" : [ "obj-15", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 0,
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -5412,7 +5479,7 @@
 					"destination" : [ "obj-51", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 28.5, 536.0, 184.09375, 536.0, 184.09375, 3.5, 884.5, 3.5 ],
+					"midpoints" : [ 28.5, 536.0, 184.09375, 536.0, 184.09375, 7.5, 884.5, 7.5 ],
 					"source" : [ "obj-6", 0 ]
 				}
 
@@ -5485,6 +5552,7 @@
 					"destination" : [ "obj-49", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 0,
 					"source" : [ "obj-81", 0 ]
 				}
 
@@ -5494,6 +5562,7 @@
 					"destination" : [ "obj-51", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 1,
 					"source" : [ "obj-81", 0 ]
 				}
 
@@ -5526,37 +5595,37 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "_filDeSoi_dspAndControle.maxpat",
-				"bootpath" : "~/Dropbox/_filDeSoi1_2016",
+				"bootpath" : "~/Desktop/Alain_FilDeSoi_CICM_mars2017",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mTRandomEnv.maxpat",
-				"bootpath" : "~/Dropbox/_filDeSoi1_2016",
+				"bootpath" : "~/Desktop/Alain_FilDeSoi_CICM_mars2017",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "randomEnveloppe.maxpat",
-				"bootpath" : "~/Dropbox/_filDeSoi1_2016",
+				"bootpath" : "~/Desktop/Alain_FilDeSoi_CICM_mars2017",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "_filDeSoi_init.maxpat",
-				"bootpath" : "~/Dropbox/_filDeSoi1_2016",
+				"bootpath" : "~/Desktop/Alain_FilDeSoi_CICM_mars2017",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "_filDeSoi_events.maxpat",
-				"bootpath" : "~/Dropbox/_filDeSoi1_2016",
+				"bootpath" : "~/Desktop/Alain_FilDeSoi_CICM_mars2017",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "_filDeSoi_entreeOnOff.maxpat",
-				"bootpath" : "~/Dropbox/_filDeSoi1_2016",
+				"bootpath" : "~/Desktop/Alain_FilDeSoi_CICM_mars2017",
 				"type" : "JSON",
 				"implicit" : 1
 			}

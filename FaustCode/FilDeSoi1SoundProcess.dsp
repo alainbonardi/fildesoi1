@@ -23,7 +23,7 @@ fdMatrix(N) 	= par(in, N, _) <: par(out, N, fd_Mixer(N, out));
 //--------------------------------------------------------------------------------------//
 //SPATIALIZATION MATRIX N x M
 //--------------------------------------------------------------------------------------//
-sp_toggle(c, in) = checkbox("h:Lines/h:SpatializationMatrix/v:Sig%2c-->/sp%3in");
+sp_toggle(c, in) = checkbox("h:Lines/h:SpatializationMatrix/v:Sig%2c-->/sp%3in") : spatSmoothLine;
 sp_Mixer(N,out) 	= par(in, N, *(sp_toggle(in, in+out*N)) ) :> _ ;
 spMatrix(N,M) 	= par(in, N, _) <: par(out, M, sp_Mixer(N, out));
 
@@ -85,10 +85,10 @@ rotphase(ind) = hslider("h:Encoders/rotphase%ind", 0, 0, 1, 0.01);
 
 
 //--------------------------------------------------------------------------------------//
-//DEFINITION OF A SMOOTHING FUNCTION FOR CONTROLLERS
+//DEFINITION OF 2 SMOOTHING FUNCTIONS FOR CONTROLLERS
 //--------------------------------------------------------------------------------------//
 smoothLine = si.smooth(ba.tau2pole(smoothDuration));
-
+spatSmoothLine = si.smooth(ba.tau2pole(0.2));//200 msec interpolation for spatialization matrix//
 
 //--------------------------------------------------------------------------------------//
 // GENERATORS

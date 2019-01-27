@@ -1,7 +1,7 @@
 //--------------------------------------------------------------------------------------//
 //-------------------------------FilDeSoi1SoundProcess.dsp------------------------------//
 //
-//-------------------------BY ALAIN BONARDI - 2015 - 2017-------------------------------//
+//-------------------------BY ALAIN BONARDI - 2016 - 2019-------------------------------//
 //--------------------------------------------------------------------------------------//
 
 //CHANGES
@@ -89,6 +89,14 @@ rotphase(ind) = hslider("h:Encoders/rotphase%ind", 0, 0, 1, 0.01);
 //--------------------------------------------------------------------------------------//
 smoothLine = si.smooth(ba.tau2pole(smoothDuration));
 spatSmoothLine = si.smooth(ba.tau2pole(0.2));//200 msec interpolation for spatialization matrix//
+
+//--------------------------------------------------------------------------------------//
+//CONTROL PARAMETERS: POSITIONS OF THE LOUDSPEAKERS IN DEGREES (anticlockwise)
+//--------------------------------------------------------------------------------------//
+direct = 2 * checkbox("h:decoder/v:global/directangles") - 1; 
+offset = hslider("h:decoder/v:global/angularoffset [unit:deg]", 0, -180, 180, 1) * ma.PI / 180;
+a(ind) = (hslider("h:decoder/v:angles/a%ind [unit:deg]", ind * 45, -360, 360, 1) * ma.PI / 180. - direct * offset) : *(direct);
+
 
 //--------------------------------------------------------------------------------------//
 // GENERATORS
@@ -317,6 +325,15 @@ phasedEncoder(f, p) = (_, phasedAngle(f, p)) : myEncoder;
 phasedEncoderBlock = par(i, 4, phasedEncoder(rotfreq(i), rotphase(i))) :> (_, _, _, _, _, _, _);
 
 
+//--------------------------------------------------------------------------------------//
+//AMBISONIC DECODING WITH IRREGULAR ORDER
+//-------------------------------------------------------------------
+mydecoder(n, p)	= par(i, 2*n+1, _) <: par(i, p, speaker(n, a(i)))
+with 
+{
+   speaker(n,alpha)	= /(2), par(i, 2*n, _), ho.encoder(n,2/(2*n+1),alpha) : si.dot(2*n+1);
+};
+
 
 //--------------------------------------------------------------------------------------//
 //PROCESS
@@ -331,7 +348,7 @@ toSpat_process = (spMatrix(17, 11), _, _, _, _, _, _);
 //level 3: ambisonics spat itself
 spat_process = (_, _, _, _, _, _, _, phasedEncoderBlock) : inputSort(7) : (+, +, +, +, +, +, +);
 
-process =  guitar_process : toSpat_process : (spat_process, _, _, _, _,  _, _ ) : (_, inputSort(6)) : (_, +, +, +, +, +, +) : generalGainBlock(7);
+process =  guitar_process : toSpat_process : (spat_process, _, _, _, _,  _, _ ) : (_, inputSort(6)) : (_, +, +, +, +, +, +) : generalGainBlock(7) : mydecoder(3,8);
 
 
 

@@ -27,6 +27,32 @@
 				}
 
 			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"hoa_optim" : [ 0 ],
+					"version_comment" : [ "config", "perso" ],
+					"abc.adcinput~::indb1" : [ 2.0 ],
+					"abc.adcinput~::adc1" : [ 2 ],
+					"abc.adcinput~::dcfilt1" : [ 1 ],
+					"abc.adcinput~[1]::SR" : [ 0 ],
+					"abc.adcinput~[1]::sigvs" : [ 8 ],
+					"abc.adcinput~[1]::iovs" : [ 3 ],
+					"abc.adcinput~[1]::ovd" : [ 1 ],
+					"abc.adcinput~[1]::tkover" : [ 1 ],
+					"abc.adcinput~[1]::driver" : [ 1 ],
+					"abc.adcinput~[1]::input" : [ 1 ],
+					"abc.adcinput~[1]::output" : [ 1 ],
+					"abc.sfplay~::db2" : [ 0.0 ],
+					"abc.sfplay~::dcfilt2" : [ 1 ],
+					"_filDeSoi_generalCntrl::general_level" : [ 146 ],
+					"_filDeSoi_generalCntrl::renv_offset" : [ 0.0 ],
+					"_filDeSoi_generalCntrl::delharmo_offset" : [ 0.0 ],
+					"_filDeSoi_generalCntrl::guitar_offset" : [ 0.0 ]
+				}
+
+			}
 
 		}
 

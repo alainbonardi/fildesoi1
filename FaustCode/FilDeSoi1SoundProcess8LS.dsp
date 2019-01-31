@@ -1,13 +1,14 @@
 //--------------------------------------------------------------------------------------//
-//-------------------------------FilDeSoi1SoundProcess.dsp------------------------------//
+//-------------------------------FilDeSoi1SoundProcess_8LS.dsp--------------------------//
 //
 //-------------------------BY ALAIN BONARDI - 2016 - 2019-------------------------------//
 //--------------------------------------------------------------------------------------//
 
 //CHANGES
-//Doppler pitchshifters remains at 4 overlapped blocks
+//Doppler pitchshifters remain with 4 overlapped blocks
 //Maximum delay size in samples is now 1048576 (and no longer 2097152)
 //that is more than 21 seconds at 48 KHz
+//the ambisonic decoder is included in the process at order 3 with 8 loudspeakers//
 
 import("stdfaust.lib");
 
@@ -171,6 +172,18 @@ clip(x) = (-1) * infTest + 1 * supTest + x * rangeTest
 			supTest = (x > 1);
 			rangeTest = (1 - infTest) * (1 - supTest);
 };
+
+//--------------------------------------------------------------------------------------//
+// Implementation of MaxMSP biquad~
+// y[n] = a0 * x[n] + a1 * x[n-1] + a2 * x[n-2] - b1 * y[n-1] - b2 * y[n-2] 
+//--------------------------------------------------------------------------------------//
+biquad(x,a0,a1,a2,b1,b2)  =  x : + ~ ((-1)*conv2(b1, b2)) : conv3(a0, a1, a2) 
+	with {
+		conv2(c0,c1,x) = c0*x+c1*x';
+		conv3(c0,c1,c2,x) = c0*x+c1*x'+c2*x'';
+	};
+
+antiDCFilter = (_, 1, -1, 0, -0.999, 0) : biquad;
 
 //--------------------------------------------------------------------------------------//
 // CONVERSION DB=>LINEAR
@@ -340,7 +353,7 @@ with
 //--------------------------------------------------------------------------------------//
 //processes on sound guitar
 //level 1: harmo and del, random env, direct guitar//
-guitar_process = _ <: (*(delharmoGain), *(guitarGain), _) : (mTDelHarmoMG(16), _, mTShortening6(renv_freq, renv_rarefaction, renv_trim));
+guitar_process = _ : antiDCFilter <: (*(delharmoGain), *(guitarGain), _) : (mTDelHarmoMG(16), _, mTShortening6(renv_freq, renv_rarefaction, renv_trim));
 
 //level 2: dispatching to spat process (ambisonic model: 7 harmonics and 4 encoders)
 toSpat_process = (spMatrix(17, 11), _, _, _, _, _, _);

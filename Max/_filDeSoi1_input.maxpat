@@ -5,7 +5,7 @@
 			"major" : 7,
 			"minor" : 3,
 			"revision" : 6,
-			"architecture" : "x86",
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
@@ -74,9 +74,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 352.901794, 9.5, 50.098206, 29.0 ],
+					"patching_rect" : [ 352.901794, 8.5, 50.098206, 29.0 ],
 					"style" : "",
-					"text" : "guitar recording"
+					"text" : "source recording"
 				}
 
 			}

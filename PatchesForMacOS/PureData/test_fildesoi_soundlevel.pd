@@ -1,0 +1,6 @@
+#N canvas 528 96 527 332 10;
+#X floatatom 94 183 5 0 0 0 - - -, f 5;
+#X floatatom 93 79 5 0 0 0 - - -, f 5;
+#X obj 93 115 _fildesoi.soundlevel;
+#X connect 1 0 2 0;
+#X connect 2 0 0 0;

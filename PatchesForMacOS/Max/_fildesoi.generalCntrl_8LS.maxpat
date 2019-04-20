@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 3,
-			"revision" : 5,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 106.0, 278.0, 924.0, 748.0 ],
+		"rect" : [ 118.0, 79.0, 1258.0, 748.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,58 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-20",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 414.348083, 546.0, 44.0, 22.0 ],
+					"style" : "",
+					"text" : "gate 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-19",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 80.25, 352.0, 72.0, 22.0 ],
+					"style" : "",
+					"text" : "loadmess 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-16",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 321.0, 546.0, 44.0, 22.0 ],
+					"style" : "",
+					"text" : "gate 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-12",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 220.0, 382.0, 72.0, 22.0 ],
+					"style" : "",
+					"text" : "loadmess 1"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-18",
 					"maxclass" : "comment",
@@ -231,7 +283,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 231.749939, 528.0, 30.0, 30.0 ],
+					"patching_rect" : [ 231.749939, 577.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -244,7 +296,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 199.749939, 528.0, 30.0, 30.0 ],
+					"patching_rect" : [ 199.749939, 577.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -257,7 +309,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 167.749939, 528.0, 30.0, 30.0 ],
+					"patching_rect" : [ 167.749939, 577.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -270,7 +322,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 135.749939, 528.0, 30.0, 30.0 ],
+					"patching_rect" : [ 135.749939, 577.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -283,7 +335,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 103.749939, 528.0, 30.0, 30.0 ],
+					"patching_rect" : [ 103.749939, 577.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -296,7 +348,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 71.749939, 528.0, 30.0, 30.0 ],
+					"patching_rect" : [ 71.749939, 577.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -309,7 +361,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 39.749939, 528.0, 30.0, 30.0 ],
+					"patching_rect" : [ 39.749939, 577.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -321,7 +373,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 8,
 					"outlettype" : [ "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal" ],
-					"patching_rect" : [ 7.749939, 469.0, 169.0, 22.0 ],
+					"patching_rect" : [ 7.749939, 518.0, 169.0, 22.0 ],
 					"style" : "",
 					"text" : "FilDeSoi1SoundProcess8LS~"
 				}
@@ -353,7 +405,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -514,7 +566,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 3,
-											"revision" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -862,7 +914,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 3,
-											"revision" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1626,7 +1678,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 287.749939, 469.0, 76.0, 22.0 ],
+					"patching_rect" : [ 321.0, 584.0, 76.0, 22.0 ],
 					"style" : "",
 					"text" : "print spatctrl"
 				}
@@ -1638,7 +1690,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 62.348083, 426.0, 86.0, 22.0 ],
+					"patching_rect" : [ 414.348083, 584.0, 86.0, 22.0 ],
 					"style" : "",
 					"text" : "print soundctrl"
 				}
@@ -1946,7 +1998,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 7.749939, 528.0, 30.0, 30.0 ],
+					"patching_rect" : [ 7.749939, 577.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -2059,7 +2111,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-116", 0 ],
-					"midpoints" : [ 1143.833374, 455.5, 17.249939, 455.5 ],
+					"midpoints" : [ 1143.833374, 509.5, 17.249939, 509.5 ],
 					"source" : [ "obj-115", 0 ]
 				}
 
@@ -2210,6 +2262,22 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-134", 0 ],
+					"midpoints" : [ 229.5, 414.5, 297.249939, 414.5 ],
+					"source" : [ "obj-12", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-133", 1 ],
+					"hidden" : 1,
+					"source" : [ "obj-123", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-134", 1 ],
 					"source" : [ "obj-131", 0 ]
 				}
@@ -2233,8 +2301,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-143", 0 ],
-					"midpoints" : [ 17.249939, 421.0, 71.848083, 421.0 ],
+					"destination" : [ "obj-20", 1 ],
+					"midpoints" : [ 17.249939, 481.0, 448.848083, 481.0 ],
 					"order" : 0,
 					"source" : [ "obj-133", 0 ]
 				}
@@ -2243,7 +2311,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-116", 0 ],
-					"midpoints" : [ 297.249939, 461.5, 17.249939, 461.5 ],
+					"midpoints" : [ 297.249939, 509.5, 17.249939, 509.5 ],
 					"order" : 1,
 					"source" : [ "obj-134", 0 ]
 				}
@@ -2251,7 +2319,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-144", 0 ],
+					"destination" : [ "obj-16", 1 ],
+					"midpoints" : [ 297.249939, 496.5, 355.5, 496.5 ],
 					"order" : 0,
 					"source" : [ "obj-134", 0 ]
 				}
@@ -2259,9 +2328,9 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-133", 0 ],
+					"destination" : [ "obj-16", 0 ],
 					"hidden" : 1,
-					"midpoints" : [ 246.0, 321.583328, 17.249939, 321.583328 ],
+					"midpoints" : [ 246.0, 319.083328, 330.5, 319.083328 ],
 					"order" : 1,
 					"source" : [ "obj-138", 0 ]
 				}
@@ -2269,9 +2338,9 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-134", 0 ],
+					"destination" : [ "obj-20", 0 ],
 					"hidden" : 1,
-					"midpoints" : [ 246.0, 319.083328, 297.249939, 319.083328 ],
+					"midpoints" : [ 246.0, 278.249993, 423.848083, 278.249993 ],
 					"order" : 0,
 					"source" : [ "obj-138", 0 ]
 				}
@@ -2331,6 +2400,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-144", 0 ],
+					"source" : [ "obj-16", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-133", 1 ],
 					"hidden" : 1,
 					"source" : [ "obj-163", 0 ]
@@ -2347,10 +2423,25 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-133", 0 ],
+					"midpoints" : [ 89.75, 384.0, 17.249939, 384.0 ],
+					"source" : [ "obj-19", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-163", 0 ],
 					"hidden" : 1,
-					"midpoints" : [ 770.500122, 31.833332, 484.749817, 31.833332 ],
+					"midpoints" : [ 770.500122, 81.833332, 484.749817, 81.833332 ],
 					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-143", 0 ],
+					"source" : [ "obj-20", 0 ]
 				}
 
 			}
@@ -2373,7 +2464,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-146", 0 ],
 					"hidden" : 1,
-					"midpoints" : [ 1259.5, 47.666664, 12.5, 47.666664 ],
+					"midpoints" : [ 1259.5, 66.666664, 12.5, 66.666664 ],
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -2382,7 +2473,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-163", 0 ],
 					"hidden" : 1,
-					"midpoints" : [ 657.5, 34.333332, 484.749817, 34.333332 ],
+					"midpoints" : [ 657.5, 78.833332, 484.749817, 78.833332 ],
 					"source" : [ "obj-68", 0 ]
 				}
 
@@ -2406,56 +2497,56 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "_fildesoi.spatCntrl.maxpat",
-				"bootpath" : "~/Documents/GitHub/fildesoi1/PatchesForMacOS/Max",
+				"bootpath" : "~/Documents/Github/fildesoi1/PatchesForMacOS/Max",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "abc.qlistwithgoto.maxpat",
-				"bootpath" : "~/Documents/GitHub/fildesoi1/PatchesForMacOS/Max",
+				"bootpath" : "~/Documents/Github/fildesoi1/PatchesForMacOS/Max",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "abc.evtcounter.maxpat",
-				"bootpath" : "~/Documents/GitHub/fildesoi1/PatchesForMacOS/Max",
+				"bootpath" : "~/Documents/Github/fildesoi1/PatchesForMacOS/Max",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "abc.gotoevent.maxpat",
-				"bootpath" : "~/Documents/GitHub/fildesoi1/PatchesForMacOS/Max",
+				"bootpath" : "~/Documents/Github/fildesoi1/PatchesForMacOS/Max",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pageTest.maxpat",
-				"bootpath" : "~/Documents/GitHub/fildesoi1/PatchesForMacOS/Max",
+				"bootpath" : "~/Documents/Github/fildesoi1/PatchesForMacOS/Max",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "_fildesoi.soundlevel.maxpat",
-				"bootpath" : "~/Documents/GitHub/fildesoi1/PatchesForMacOS/Max",
+				"bootpath" : "~/Documents/Github/fildesoi1/PatchesForMacOS/Max",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "_fildesoi.genLevel.maxpat",
-				"bootpath" : "~/Documents/GitHub/fildesoi1/PatchesForMacOS/Max",
+				"bootpath" : "~/Documents/Github/fildesoi1/PatchesForMacOS/Max",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "_fildesoi.lsanglesAndLevel.maxpat",
-				"bootpath" : "~/Documents/GitHub/fildesoi1/PatchesForMacOS/Max",
+				"bootpath" : "~/Documents/Github/fildesoi1/PatchesForMacOS/Max",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
